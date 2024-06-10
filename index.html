@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.css" rel="stylesheet">
+    <script defer src="../js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="demo">
+            <div class="info">
+            <h1 class="text_main">Демо-версия</h1>
+            <p class="text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить </p>
+            <button class="button myBtn" id="myBtn">Попробовать бесплатно <img src="/image/arrow.png" alt="arrow"></button>
+        </div>
+            <div class="background">
+            <picture class="picture">
+                <source media="(max-width: 500px)" srcset="./image/back_375.png">
+                <source media="(max-width: 768px)" srcset="./image/back_768.png">
+                <source media="(max-width: 1600px)" srcset="./image/back_1440.png">
+                <img class="img" src="./image/back_1920.png" alt=""></picture>
+        </div>
+        </div>
+    </div>
+    </header>
+    <div class=" modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" id="modal-dialog" role="document">
+            <div class="modal-content clearfix">
+                <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <div class="modal-body">
+                    <h3 class="title">Войти в систему</h3>
+                    <div class="form-group">
+                        <span class="input-icon"><i class="fa fa-user"></i></span>
+                        <input type="email" class="form-control" placeholder="Email/Телефон">
+                    </div>
+                    <div class="form-group"  id="form-group" name="form-group">
+                        <span class="input-icon"><i class="fas fa-key"></i></span>
+                        <input type="password" class="form-control" placeholder="Пароль">
+                    </div>
+                    <div class="form-group checkbox">
+                        <input id="check" type="checkbox" class="checkbox">
+                        <label for="check">Запомнить пароль</label>
+                    </div>
+                    <div class="forgot"><a href="" class="forgot-pass">Восстановить</a></div>
+                    <button class="btn">Войти</button>
+                    <button class="btn">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

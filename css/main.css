@@ -1,0 +1,166 @@
+
+@import url(popup.css);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: 'Manrope';
+  }
+
+  html {
+      box-sizing: border-box
+    }
+  
+    *,
+    ::before,
+    ::after {
+      box-sizing: inherit;
+    }
+  
+    
+    img, svg {
+      max-width: 100%;
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    .reset-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    .reset-btn {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+    }
+  
+    h1,h2,h3,h4,h5,h6,p {
+      margin:0;
+    }
+  
+.header {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.demo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBF0FA;
+    border-radius:10px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius:0 10px;
+ }
+
+.info {
+    padding-top: 102px;
+    padding-left: 72px;
+}
+
+.text_main {
+text-align: left;
+font-size:30px;
+font-family: Manrope;
+margin-bottom: 18px;
+color: #1F4284;
+}
+
+.text {
+    font-size: 17px;
+    font-family: Manrope;
+    max-width: 510px;
+    margin-bottom: 36px;
+    color:#727272;
+}
+
+.button {
+    display: flex;
+    gap:48px;
+    color:white;
+    background-color:#244C98;
+    align-items: center;
+    font-size: 18px;
+    font-family: Manrope;
+    padding: 12px 12px;
+    padding-left: 24px;
+    border-radius: 60px;
+    border:none;
+    transition:background-color 1s;
+}
+
+.button:hover{
+    background-color:brown;
+   }
+   
+   .button:focus-visible{
+       background-color:brown;  
+   }
+   
+   .button:active{
+       background-color:brown;  
+   }
+
+.picture {
+    display: flex;
+    height: 100%;
+}
+  
+
+@media(max-width:1350px) {
+    .container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .info {
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+    .text_main {
+        font-size: 20px;
+        margin-bottom: 18px;  
+    }
+    .text {
+        font-size: 15px;
+        margin-bottom: 24px;  
+        max-width: 90%;
+    }
+
+    .button{
+        padding: 10px;
+        padding-left: 18px;
+        margin-bottom: 24px;    
+        gap:19px;
+        font-size: 15px;
+    }
+    .demo{
+        flex-direction: column;
+    }
+
+    .picture {
+        width: 100%;
+    }
+}
