@@ -1,10 +1,10 @@
-var modal = document.getElementById('myModal');
+let modal = document.getElementById('myModal');
 
 
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("myBtn");
 
 
-var closePopup = document.getElementsByClassName("close")[0];
+let closePopup = document.getElementsByClassName("close")[0];
 
 
 btn.onclick = function() {
