@@ -126,7 +126,7 @@ color: #1F4284;
 }
   
 
-@media(max-width:1350px) {
+@media(max-width:1250px) {
     .container{
         padding-left: 24px;
         padding-right: 24px;
@@ -162,5 +162,11 @@ color: #1F4284;
 
     .picture {
         width: 100%;
+    }
+}
+
+@media(max-width:500px) { 
+    .button{
+        gap:37px;
     }
 }
