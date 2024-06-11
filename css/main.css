@@ -120,6 +120,18 @@ color: #1F4284;
        background-color:brown;  
    }
 
+   .circle {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    width: 36px;
+    height: 36px;
+    border-radius:100px;
+
+    
+   }
+
 .picture {
     display: flex;
     height: 100%;
